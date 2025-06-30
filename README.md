@@ -4,9 +4,9 @@ Paper: From Room Impulse Responses to Wall Impulse Responses (to be published so
 
 Authors: Stéphane Dilungana, Antoine Deleforge, Cédric Foy, Sylvain Faisan
 
-This repository contains the Python implementation of the alternating optimization approach introduced in the upcoming paper From Room Impulse Responses to Wall Impulse Responses. The code allows reproduction of the core methodology and experiments presented in the article. It is fully implemented in PyTorch to enable efficient parallelization on GPUs.
+This repository (code/) contains the Python implementation of the alternating optimization approach introduced in the upcoming paper From Room Impulse Responses to Wall Impulse Responses. The code allows reproduction of the core methodology and experiments presented in the article. It is fully implemented in PyTorch to enable efficient parallelization on GPUs.
 
-Please note that detailed information about the data used, required dependencies,and environment setup, will be provided at the time of publication. 
+Please note that detailed information about data availability, required dependencies, and environment setup will be provided upon publication.
 
 The main script is main.py, which launches the full experiment. It relies on the following components:
 
