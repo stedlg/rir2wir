@@ -12,8 +12,8 @@ The main script is main.py, which launches the full experiment. It relies on the
 
 - alternating_optimization.py: implementation of the alternating optimization procedure, including:
   
-    * echoes delay optimization using Adam gradient descent, 
-    * wall impulse response (WIR) estimation as a linear system inversion using the Conjugate Gradient method, 
+    * echoes delay optimization using Adam optimizer, 
+    * wall impulse responses (WIR) estimation as a multi-observation linear system inversion using the Conjugate Gradient method, 
     * projection onto non-linear constraints.
       
 - functions.py: utility functions used throughout the pipeline.
